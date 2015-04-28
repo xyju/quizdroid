@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QuizDroid</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_topic_overview">TopicOverviewActivity</string>
+    <string name="title_activity_math_overview">MathOverviewActivity</string>
+    <string name="title_activity_physics_overview">PhysicsOverviewActivity</string>
+    <string name="title_activity_hero_overview">HeroOverviewActivity</string>
+    <string name="title_activity_first_question">FirstQuestionActivity</string>
+    <string name="title_activity_first_answer">FirstAnswerActivity</string>
+    <string name="title_activity_second_question">SecondQuestionActivity</string>
+    <string name="title_activity_second_answer">SecondAnswerActivity</string>
+</resources>

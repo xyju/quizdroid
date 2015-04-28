@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="edu.washington.xyju.quizdroid.SecondAnswerActivity">
+
+    <LinearLayout
+        android:id="@+id/math2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/m2answer1"
+            android:text="The correct answer is 144."
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/m2answer2"
+            android:layout_below="@+id/m2answer1"
+            android:text=""
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/m2answer3"
+            android:text=" "
+            android:textSize="30dp"
+            android:layout_below="@+id/m2answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/physics2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/p2answer1"
+            android:text="The correct answer is 2160m."
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/p2answer2"
+            android:layout_below="@+id/p2answer1"
+            android:text=""
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/p2answer3"
+            android:text=" "
+            android:textSize="30dp"
+            android:layout_below="@+id/p2answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/msh2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/msh2answer1"
+            android:text="The correct answer is the Daily Bugle"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/msh2answer2"
+            android:layout_below="@+id/msh2answer1"
+            android:text=""
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/msh2answer3"
+            android:text=" "
+            android:textSize="30dp"
+            android:layout_below="@+id/msh2answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/m2btn"
+        android:text="Finish"
+        android:textSize="30dp"
+        android:layout_below="@+id/math2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
