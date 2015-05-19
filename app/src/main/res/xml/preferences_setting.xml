@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Download" >
+        <EditTextPreference
+            android:title="URL"
+            android:summary="Set Your URL"
+            android:key="prefUserURL"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Time Setting" >
+        <ListPreference
+            android:title="Frequency"
+            android:summary="Set Your Check Interval"
+            android:key="prefUserFrequency"
+            android:entries="@array/Frequency_entries"
+            android:entryValues="@array/Frequency_value"/>
+    </PreferenceCategory>
+</PreferenceScreen>
